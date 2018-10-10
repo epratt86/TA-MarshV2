@@ -1,0 +1,142 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media all and (max-width: 575.98px) {
+  .alert {
+    padding: 0; }
+  .carousel-inner {
+    height: 200px; }
+  .container {
+    justify-content: center !important; }
+  .estimate {
+    margin: 1rem; }
+  .flash {
+    margin-bottom: 100px; }
+  h1 {
+    text-align: center;
+    font-size: 2rem; }
+  .link {
+    font-size: 1rem;
+    padding: 0 0.5rem; }
+  #logo {
+    max-width: 100%;
+    padding-bottom: 2rem; }
+  #map {
+    padding-top: 2rem; }
+  .navbar-brand {
+    margin-right: 0;
+    padding-top: 1rem; }
+  .options {
+    margin-top: 7rem; }
+  .reviews {
+    text-align: center; }
+  ul {
+    margin-left: -2.2rem; } }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 813) {
+  .navbar {
+    position: absolute; } }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    justify-content: center !important; } }
+
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .options {
+    padding-top: 7rem; } }
+
+* {
+  font-family: "Roboto Slab", serif; }
+
+a:hover {
+  color: #c8d0d8;
+  text-decoration: none; }
+
+address {
+  text-align: right; }
+
+.alert {
+  margin-bottom: 0; }
+
+li {
+  display: inline;
+  margin: 0; }
+
+.buttons {
+  background-color: #d82626;
+  border-color: #710417;
+  color: white; }
+
+.carousel-control-prev-icon {
+  margin-top: 50%; }
+
+.carousel-control-next-icon {
+  margin-top: 50%; }
+
+.card-title {
+  text-align: center; }
+
+.contact-us {
+  margin-top: 1em; }
+
+.estimate {
+  background-color: #004d976b;
+  text-align: center;
+  margin-top: 1em; }
+
+.estimate-form {
+  justify-content: center;
+  align-content: center; }
+
+.flash {
+  display: contents;
+  padding-top: 5em;
+  position: relative;
+  margin-bottom: -1rem;
+  text-align: center; }
+
+.footer {
+  background-color: #084c92;
+  bottom: 0;
+  width: 100%; }
+
+.link {
+  color: white;
+  font-size: 1.75rem;
+  padding: 0 1rem; }
+
+.main-content {
+  padding-top: 2rem;
+  position: relative;
+  min-height: 80vh;
+  padding-bottom: 2.5rem; }
+
+.more-button {
+  float: right; }
+
+.navbar {
+  background-color: #084c92;
+  padding: 0; }
+
+.navbar-nav {
+  padding-top: 8rem; }
+
+.navbar-toggler {
+  background-color: #f7594c; }
+
+.resize-img {
+  height: 500px; }
+
+.reviews {
+  margin-top: 2em; }
+
+.bigger {
+  font-size: 1.5em; }
+
+#contact {
+  text-align: right; }
+
+#map {
+  width: 100%; }
